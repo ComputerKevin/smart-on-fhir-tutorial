@@ -8,6 +8,8 @@
     }
 
     function onReady(smart)  {
+      console.log(typeof smart);
+      alert(typeof smart);
       if (smart.hasOwnProperty('patient')) {
         console.log(smart.patient.toString());
         var patient = smart.patient;
